@@ -8,7 +8,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     #incoming_request = urlparse(req.url)
     #dict(req.headers).items()
     header_dict = {}
-    get_url = 'http://<IPADDRESS>/FortyNorth/Postt'
+    get_url = 'http://<IPADDRESS>/FortyNorth/PostIt'
     for key, value in dict(req.headers).items():
         header_dict.update({key : value})
     #ssl._create_default_https_context = ssl._create_unverified_context

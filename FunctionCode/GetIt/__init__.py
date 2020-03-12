@@ -7,7 +7,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     #incoming_request = urlparse(req.url)
     #dict(req.headers).items()
     header_dict = {}
-    get_url = 'http://<IPADDRESS>/FortyNorth/Gett'
+    get_url = 'http://<IPADDRESS>/FortyNorth/GetIt'
     for key, value in dict(req.headers).items():
         header_dict.update({key : value})
 
