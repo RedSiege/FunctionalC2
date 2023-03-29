@@ -2,7 +2,7 @@ from flask import make_response
 import functions_framework
 import requests
 
-# to deploy this function, run: gcloud functions deploy <your function name> --runtime python310 --trigger-http --allow-unauthenticated
+# to deploy this function, run: `gcloud functions deploy <your function name> --runtime python310 --trigger-http --allow-unauthenticated`
 @functions_framework.http
 def c2Get(request): 
 
